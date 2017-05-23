@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (key.equals(CHOICES)){//если изменилось количество вариантов ответа
 
-                        quizFragment.updateGuessRow(sharedPreferences);
+                        quizFragment.updateGuessRows(sharedPreferences);
                         quizFragment.resetQuiz();
 
                     }else if(key.equals(REGIONS)) {//Если изменился регион
